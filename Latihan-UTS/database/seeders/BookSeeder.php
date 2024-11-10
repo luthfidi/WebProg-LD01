@@ -37,7 +37,7 @@ class BookSeeder extends Seeder
                 'description' => 'description book 3',
                 'publish_date' => '2024-3-1',
                 'author_id' => 2,
-                'genre_id' => 1
+                'genre_id' => 2
             ],
             [
                 'name' => 'book 4',
@@ -45,7 +45,7 @@ class BookSeeder extends Seeder
                 'description' => 'description book 4',
                 'publish_date' => '2024-4-1',
                 'author_id' => 3,
-                'genre_id' => 2
+                'genre_id' => 1
             ],
             [
                 'name' => 'book 5',
@@ -53,7 +53,7 @@ class BookSeeder extends Seeder
                 'description' => 'description book 5',
                 'publish_date' => '2024-5-1',
                 'author_id' => 3,
-                'genre_id' => 2
+                'genre_id' => 1
             ],
         ];
         DB::table('books')->insert($books);

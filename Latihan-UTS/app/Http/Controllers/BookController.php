@@ -9,8 +9,9 @@ use App\Models\Genre;
 class BookController extends Controller
 {
     //
-    public function bookList($genre_id){
-        $books = Book::where('genre_id',$genre->id)->paginate(3);
+    public function bookList($genre_id=0){
+        if($genre_id==0) $books = Book::paginate(3);
+        else $books = Book::where('genre_id',$genre_id)->paginate(3);
         $genres = Genre::all();
 
         $datas = [
@@ -22,7 +23,7 @@ class BookController extends Controller
 
     }
 
-    public function bookDetail(){
-        return view('book-detail');
+    public function bookDetail(Book $book){
+        return view('book-detail',['book'=>$book]);
     }
 }

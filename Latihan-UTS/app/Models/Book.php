@@ -10,6 +10,8 @@ class Book extends Model
 {
     //
     use HasFactory;
+
+    protected $dates=['publish_date'];
     /**
      * Get the comments for the blog post.
      * @return \Illuminate\Database\Eloquent\Relations\HasMany;     
@@ -25,4 +27,11 @@ class Book extends Model
     {
         return $this->belongsTo(Author::class);
     }
+
+    protected function casts(): array
+{
+    return [
+        'publish_date' => 'date:d F Y'
+    ];
+}
 }

@@ -8,8 +8,11 @@
 </head>
 <body>
     <div class="container">
+        
         <div class="row">
-            <img src="{{ asset('images/image.png') }}" alt="" width="10px" height="100">
+            <div class="col mt-3 mb-3">
+                <img src="{{ asset('images/logo.png') }}" alt="" width="100px">
+            </div>
         </div>
         <div class="row">
             <div class="col">@yield('content')</div>
