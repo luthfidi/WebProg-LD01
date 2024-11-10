@@ -47,5 +47,4 @@
         {{$books->links()}}
     </div>
 </div>
-
 @endsection
