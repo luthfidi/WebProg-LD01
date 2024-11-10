@@ -15,8 +15,8 @@ return new class extends Migration
             $table->id();
             $table->string('name', 100);
             $table->string('photo', 100);
-            $table->string('publish_date');
-            $table->string('description');
+            $table->date('publish_date');
+            $table->text('description');
 
             $table->foreignId('author_id');
             $table->foreignId('genre_id');

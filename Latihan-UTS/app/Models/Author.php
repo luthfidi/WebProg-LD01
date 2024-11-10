@@ -21,10 +21,10 @@ class Author extends Model
     }
     
     protected function casts(): array
-{
-    return [
-        'birth_date' => 'date:d F Y'
-    ];
-}
+    {
+        return [
+            'birth_date' => 'date:d F Y'
+        ];
+    }
 }
 

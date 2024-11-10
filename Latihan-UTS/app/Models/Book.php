@@ -28,9 +28,9 @@ class Book extends Model
     }
 
     protected function casts(): array
-{
-    return [
-        'publish_date' => 'date:d F Y'
-    ];
-}
+    {
+        return [
+            'publish_date' => 'date:d F Y'
+        ];
+    }
 }

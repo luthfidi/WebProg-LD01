@@ -31,7 +31,6 @@ class AuthorSeeder extends Seeder
                 'birth_date' => '2000-3-20'
             ],
         ];
- 
         DB::table('authors')->insert($authors);
     }
 }
