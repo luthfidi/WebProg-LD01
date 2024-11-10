@@ -13,8 +13,7 @@ class Book extends Model
 
     protected $dates=['publish_date'];
     /**
-     * Get the comments for the blog post.
-     * @return \Illuminate\Database\Eloquent\Relations\HasMany;     
+     * Get the comments for the blog post.  
      */
     
     public function genre(): BelongsTo

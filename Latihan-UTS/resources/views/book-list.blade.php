@@ -3,13 +3,22 @@
 
 <div class="row">
     <div class="col">
-    <div class="btn-group" role="group" aria-label="Basic outlined example">
-        <a href="{{route('book.index')}}" class="btn btn-outline-dark">all</a>
-        @foreach ($genres as $genre)
-        <a href="{{route('book.index', ['genre_id'=>$genre->id])}}" class="btn btn-outline-dark">{{$genre->name}}</a>
-        @endforeach
+        <div class="btn-group" role="group" aria-label="Basic outlined example">
+            <a href="{{route('book.index')}}" class="btn btn-outline-dark">all</a>
+            @foreach ($genres as $genre)
+            <a href="{{route('book.index', ['genre_id'=>$genre->id])}}" class="btn btn-outline-dark">{{$genre->name}}</a>
+            @endforeach
+        </div>
     </div>
+    <div class="col text-end">
+        <div class="container">
+            <form action="" method="GET" class="d-inline">
+                <input type="text" name="search" placeholder="Search book name..." value="{{ request('search') }}">
+                <button type="submit">Search</button>
+            </form>
+        </div>
     </div>
+</div>
 </div>
 <div class="row">
     <div class="col">

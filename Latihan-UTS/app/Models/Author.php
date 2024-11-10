@@ -14,7 +14,6 @@ class Author extends Model
     protected $dates=['birth'];
     /**
      * Get the comments for the blog post.
-     * @return \Illuminate\Database\Eloquent\Relations\HasMany; 
      */
     public function books(): HasMany
     {
