@@ -8,18 +8,14 @@ use Illuminate\Support\Facades\DB;
 
 class GenreSeeder extends Seeder
 {
-    /**
-     * Run the database seeds.
-     */
     public function run(): void
     {
-        //
-        $genres=[
+        $genres = [
             [
-                'name'=>'action'
+                'name' => 'Action'
             ],
             [
-                'name'=>'comic'
+                'name' => 'Mystery'
             ],
         ];
         DB::table('genres')->insert($genres);

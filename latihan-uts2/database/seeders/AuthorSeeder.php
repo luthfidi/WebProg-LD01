@@ -8,27 +8,23 @@ use Illuminate\Support\Facades\DB;
 
 class AuthorSeeder extends Seeder
 {
-    /**
-     * Run the database seeds.
-     */
     public function run(): void
     {
-        //
         $authors = [
             [
-                'name' => 'Author 1',
-                'photo' => 'images/authors/1.png',
-                'birth_date' => '2000-1-20'
+                'name' => 'Masashi Kishimoto',
+                'photo' => 'images/authors/1.webp',
+                'birth_date' => '1974-11-08'
             ],
             [
-                'name' => 'Author 2',
-                'photo' => 'images/authors/2.png',
-                'birth_date' => '2000-2-20'
+                'name' => 'Gosho Aoyama',
+                'photo' => 'images/authors/2.webp',
+                'birth_date' => '1963-06-21'
             ],
             [
-                'name' => 'Author 3',
-                'photo' => 'images/authors/3.png',
-                'birth_date' => '2000-3-20'
+                'name' => 'Tsugumi Ohba',
+                'photo' => 'images/authors/3.jpg',
+                'birth_date' => '1960-02-15'
             ],
         ];
         DB::table('authors')->insert($authors);

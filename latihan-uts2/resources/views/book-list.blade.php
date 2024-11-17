@@ -7,7 +7,7 @@
                 <th>Cover</th>
                 <th>Name</th>
                 <th>Genre</th>
-                <th>Action</th>
+                <th>Detail</th>
             </tr>
         </thead>
         <tbody>

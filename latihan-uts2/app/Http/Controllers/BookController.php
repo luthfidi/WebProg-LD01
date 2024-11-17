@@ -22,7 +22,7 @@ class BookController extends Controller
             $books = $books->where('name', 'like', '%' . $request->search . '%');
         }
         
-        $books = $books->paginate(5);
+        $books = $books->paginate(3);
         $genres = Genre::all();
 
         $datas = [

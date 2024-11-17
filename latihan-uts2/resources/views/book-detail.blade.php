@@ -41,12 +41,12 @@
                         <th>Age</th>
                         <td>{{ $book->author->birth_date->age }} Years</td>
                     </tr>
+                    
                 </table>
+                <div class="mt-4">
+                    <a href="{{ route('book.index') }}" class="btn btn-outline-primary">Back to Book List</a>
+                 </div>
             </div>
-        </div>
-
-        <div class="mt-4">
-            <a href="{{ route('book.index') }}" class="btn btn-outline-primary">Back to Book List</a>
         </div>
     </div>
 </div>
