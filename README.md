@@ -13,4 +13,4 @@ Repository ini berisi proyek dan latihan untuk mata kuliah **Website Programming
 ![Group 2](https://github.com/user-attachments/assets/eea71e76-8588-4a21-8f36-694651d7fd2d)
 
 ## Latihan UTS:
-![project-6](https://github.com/user-attachments/assets/88d497f0-7efd-4674-b697-f54308c207e2)
+![Screenshot 2024-11-18 063949](https://github.com/user-attachments/assets/375c06af-84ca-4bd8-b3f8-3ffe2d479b55)
