@@ -14,3 +14,6 @@ Repository ini berisi proyek dan latihan untuk mata kuliah **Website Programming
 
 ## Latihan UTS:
 ![Screenshot 2024-11-18 063949](https://github.com/user-attachments/assets/375c06af-84ca-4bd8-b3f8-3ffe2d479b55)
+
+## GSLC 2:
+![Frame 38](https://github.com/user-attachments/assets/3d6cdef9-5f2c-41e0-b087-1fe175148456)
