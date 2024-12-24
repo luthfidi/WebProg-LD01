@@ -1,4 +1,4 @@
-﻿# WebProg-LD01
+﻿# WebProg LD01
 
 Repository ini berisi proyek dan latihan untuk mata kuliah **Website Programming**.
 
